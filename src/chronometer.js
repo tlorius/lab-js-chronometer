@@ -41,7 +41,7 @@ class Chronometer {
   }
 
   split() {
-    //maybe use variables to make this more readable?
+    //maybe use variables to make this more readable??
     return `${this.computeTwoDigitNumber(
       this.getMinutes()
     )}:${this.computeTwoDigitNumber(this.getSeconds())}`;
